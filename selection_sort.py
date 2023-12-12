@@ -1,6 +1,6 @@
 def selection_sort(lst):
     n = len(lst)
-    
+     
     for i in range(n):
         min_index = i
         
