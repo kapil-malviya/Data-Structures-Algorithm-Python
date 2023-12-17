@@ -5,8 +5,8 @@ para = para.split(" ")
 counting_dict = {}
 for element in para:
     if element in counting_dict:
-    	counting_dict[element]= 1
+        counting_dict[element] += 1
     else:
-    	counting_dict[element] = counting_dict[element] + 1
+        counting_dict[element] = 1
 
 print(counting_dict)
