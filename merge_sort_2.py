@@ -1,7 +1,6 @@
 import pdb
 
 
-
 def merge(arr):
     if(len(arr)<=1):
         return arr
