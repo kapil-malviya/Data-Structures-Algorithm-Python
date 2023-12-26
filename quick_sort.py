@@ -10,7 +10,7 @@ def partition(elements, start, end):
 	# pdb.set_trace()
 	while start < end:
 		while start < len(elements) and elements[start] <= pivot:
-			start += 1
+			start += 1 
 
 		while elements[end] > pivot:
 			end -= 1
